@@ -1,2 +1,2 @@
-# alexkaunsss.github.io
+# Alex Lapachuk
 Мой первый опубликованный сайт.
