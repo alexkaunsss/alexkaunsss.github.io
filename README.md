@@ -13,4 +13,4 @@
 
 3. [Форма для заполнения данных](alexkaunsss.github.io/lesson13/ "Форма для заполнения данных")
 
-4. [Шапка сайта](https://alexkaunsss.github.io/lesson14/ "Шапка сайта)
+4. [Шапка сайта](https://alexkaunsss.github.io/lesson14/ "Шапка сайта")
