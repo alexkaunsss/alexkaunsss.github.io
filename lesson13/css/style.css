@@ -1,0 +1,72 @@
+.container {
+	margin-top: 50px;
+	margin-left: 40%;
+}
+body {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.menu {
+	border: solid 3px #01B3B3;
+	display: inline-block;
+	height: 420px;
+	width: 300px;
+}
+
+.form-create {
+	width: 150px;
+ height: 25px;
+ background-color: #01B3B3;
+ margin-left: 30px;
+ margin-bottom: 5px;
+}
+
+
+.text {
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top:3px;
+}
+
+.email {
+	margin-top: 37px;
+ font-style: italic;
+}
+
+.email-input {
+	margin-top: 16px;
+ width: 220px;
+ height: 25px;
+ font-style: italic;
+ padding-left: 10px;
+}
+
+.password1 {
+	margin-top: 37px;
+	font-style: italic;
+}
+.password2 {
+	margin-top: 37px;
+	font-style: italic;
+}
+
+.btn {
+	margin-top: 36px;
+	width: 234px;
+	height: 40px;
+	background-color: #01B3B3;
+	border-radius: 5px;
+ border:;
+
+}
+.btn-text {
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 10px;
+	letter-spacing: 1px;
+}

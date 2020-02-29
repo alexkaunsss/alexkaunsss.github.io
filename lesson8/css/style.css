@@ -1,0 +1,22 @@
+.text {
+text-align: center;
+margin-top: 140px;
+font-family: Tahoma;
+text-transform: uppercase;
+font-weight: 300%;
+font-size: 36px;
+}
+
+.container {
+text-align: center;
+
+}
+img {
+ height: 139px;
+}
+.box {
+ font-size: 16px;
+ font-weight: 100%;
+ margin-top: 35px;
+	
+}
