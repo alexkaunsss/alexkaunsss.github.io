@@ -17,3 +17,5 @@
 4. [Шапка сайта](https://alexkaunsss.github.io/lesson14/ "Шапка сайта")
 
 5. [Шрифты](https://alexkaunsss.github.io/lesson14.1/ "Шрифты")
+
+6. [DeliveryFood](https://alexkaunsss.github.io/delivery/ "DeliveryFood")
