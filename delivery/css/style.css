@@ -532,6 +532,12 @@ color: #40A9FF;
 }
 
 @media (max-width: 480px) {
+.buttons {
+	margin-top: 15px;
+}
+.button-primary {
+	margin-right: 9px;
+}
 
 .button-text {
 	display: none
