@@ -1,0 +1,197 @@
+*{
+	 box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
+}
+
+ 
+.container {
+	 max-width: 1200px;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.header {
+	border-bottom: 4px solid black;
+}
+
+.logo { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+ }
+
+ .main {
+	font-size: 38px;
+	margin-top: 100px;
+	font-family: 'Bangers', cursive;
+}
+
+
+.fotorama {
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+
+.footer {
+	height: 50px;
+	border-top: 4px solid black;
+	
+}
+
+
+.copyright {
+	text-decoration: none;
+	font-family: 'Dancing Script', cursive;
+}
+
+
+a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #101010;
+}
+
+
+.copyright-color:hover {
+	color: #BF3F02;
+	transition: all 0.3s;
+}
+
+
+.social-links {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.social-link:not(:last-child) {
+ margin-right: 15px;
+ }
+
+ .footer {
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+
+
+@media(max-width: 1366px) {
+ .container {
+ 	max-width: 1200px;
+ }
+
+ .fotorama {
+ 	margin: 0 auto;
+ 	height: 550px;
+ 	width: 750px;
+ 	margin-bottom: 80px;
+ }
+
+.logo {
+	margin-bottom: 10px;
+}
+
+.main {
+	font-size: 30px;
+	text-align: center;
+}
+
+.social-links {
+	margin-left: 20px;
+}
+
+
+}
+
+@media (max-width: 1024px)  {
+
+.container	{
+	max-width: 900px;
+}
+
+.fotorama {
+ 	height: 400px;
+ 	width: 600px;
+ }
+
+.logo {
+ height: 70px;
+ }
+
+.main {
+	font-size: 20px;
+}
+
+.footer {
+ 	height: 70px;
+ 	position: relative;
+ }
+
+.copyright {
+ display: flex;
+ justify-content: center;
+ position: absolute;
+ margin-top: 39px;
+}
+
+
+.social-links {
+	margin: auto;
+}
+
+
+@media (max-width: 768px) {
+.container {
+	max-width: 560px;
+}
+
+.fotorama {
+	width: 350px;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+
+}
+
+.footer {
+	height: 120px;
+	position: relative;
+}
+
+.social-links {
+	position: relative;
+}
+
+.copyright {
+	margin-top: 66px;
+}
+
+}
+
+@media (max-width:578px ) {
+	.container {
+		max-width: 340px	;
+	}
+.main {
+	font-size: 16px;
+	margin: 0;
+}
+.logo {
+	height: 60px;
+
+}
+.header {
+	border-bottom: 5px solid black;
+}
+	.fotorama {
+		width: 270px;
+	}
+
+}
