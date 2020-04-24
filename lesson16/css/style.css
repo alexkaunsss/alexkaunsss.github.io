@@ -180,7 +180,7 @@ a {
 		max-width: 340px	;
 	}
 .main {
-	font-size: 16px;
+	font-size: 14px;
 	margin: 0;
 }
 .logo {
@@ -194,4 +194,9 @@ a {
 		width: 270px;
 	}
 
+.copyright {
+ 	margin-top: 68px;
+ 	font-size: 10px;
+ }
+ 
 }
