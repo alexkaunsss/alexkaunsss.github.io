@@ -19,3 +19,5 @@
 5. [Шрифты](https://alexkaunsss.github.io/lesson14.1/ "Шрифты")
 
 6. [DeliveryFood](https://alexkaunsss.github.io/delivery/ "DeliveryFood")
+
+7. [Слайдеры](https://alexkaunsss.github.io/lesson16/ "Слайдеры")
