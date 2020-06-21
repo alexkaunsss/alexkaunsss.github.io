@@ -6,6 +6,7 @@ textarea {
 }
 
 
+
 a {
 	transition: 0.4s all ease;
 }
@@ -265,6 +266,11 @@ a:focus {
 	margin-top: 10rem;
 }
 
+
+.customize-img {
+	width: 100%;
+}
+
 .header-customize {
 	padding-top: 10rem;
 }
@@ -310,7 +316,6 @@ a:focus {
 	width: 6rem;
 	height: 6rem;
 	border-radius: 50%;
-	border: 1px solid black;
 }
 
 
@@ -476,6 +481,11 @@ a:focus {
 .ordering-main:hover {
 	color: #008FD9;
 	transition: 0.5s all ease;
+
+}
+
+.span-hover {
+ font-size: 18px;
 }
 
 .ordering-price:hover {
@@ -514,7 +524,7 @@ a:focus {
 /* Подвал */
 
 .footer {
-	background-color: #353240;
+	background-color: #15141A;
 }
 
 .footer-block {
@@ -528,7 +538,7 @@ a:focus {
 
 .footer-copyright {
 	text-align: center;
-	color: #424147;
+		color: #fff;
 	margin-top: 1rem;
 	padding-bottom: 2rem;
 }
@@ -666,6 +676,10 @@ form textarea {
  	padding: 1rem;
  }
 
+.detail-feature-block p {
+ font-size: 16px;
+}
+
 .content-img {
 	display: none;
 }
@@ -694,6 +708,8 @@ form textarea {
  .feature-blocks {
  	margin-top: 3rem;
  }
+
+
 
  .feature-block {
  	padding-top: 6rem;
@@ -732,9 +748,13 @@ form textarea {
 	display: none;
 }
 
-.advice-text p {
+ .advice-text {
+ 	height: 10rem;
+ }
+
+
+ p {
 	font-size: 16px;
-	color: #fff;
 }
 
 .advice-slider {
@@ -796,6 +816,10 @@ form textarea {
 .contacts-content {
 	max-width: 16rem;
 	margin: 0 auto;
+}
+
+.contacts-content p {
+	color: #000;
 }
 
 .buttons button{
@@ -952,6 +976,14 @@ form textarea {
 }
 
 
+
+.advice-sliders {
+	display: inline-block;
+	padding-top: 13rem;
+	padding-bottom: 18rem;
+}
+
+
 .advice-heading span {
 	font-weight: 300;
 	margin-top: 5px;
@@ -976,13 +1008,20 @@ form textarea {
 }
 
 .footer {
+	background-color: #15141A;
 	padding-top: 3rem;
-}
+} 
+
+
 .footer-copyright {
 	text-align: center;
-	color: #424147;
+	color: #fff;
 	margin-top: 1rem;
 	padding-bottom: 1rem;
+}
+
+.footer-block img {
+	fill: #fff;
 }
 
 .button_none-get {
@@ -1002,4 +1041,139 @@ form textarea {
 .contacts-block img {
 	margin-bottom: 3rem;
 }
+
+.advice-heading span {
+font-size: 10px;
 }
+
+}
+
+@media (max-width: 505px) { 
+
+
+
+.advice-heading h4 {
+font-size: 10px;
+}
+ 
+.advice-heading span {
+font-size: 9px;
+line-height: 0.7;
+}
+
+
+ .advice-icon {
+	margin-top: 5rem;
+}
+
+ .advice-text {
+ 	height: 10rem;
+ }
+
+  .advice-text p{
+ 	font-size: 12px;
+ }
+
+.advice-sliders {
+	display: inline-block;
+	padding-top: 9rem;
+	padding-bottom: 20rem;
+}
+
+.customize p {
+	font-size: 12px;
+}
+
+
+.feature-content p{
+	font-size: 14px;
+	opacity: 0.4;
+}
+
+.detail-feature-block p {
+ font-size: 15px;
+}
+
+.content h1 {
+	font-size: 30px;
+}
+
+
+.section-header_light {
+	font-size: 26px;
+}
+
+	}
+
+
+
+	@media (max-width: 439px) { 
+
+ .advice-heading span {
+font-size: 8px;
+}
+
+ .advice-heading h4 {
+font-size: 8px;
+}
+
+  .advice-text p{
+ 	font-size: 10px;
+ 	text-align: left;
+ }
+
+
+.advice-text {
+	height: 9rem;
+}
+
+}
+	@media (max-width: 410px) { 
+ .content-buttons button {
+ 	margin-right: 0;
+ 	margin-bottom: 25px;
+ }
+
+
+ .content h1 {
+
+	font-size: 26px;
+}
+
+.links {
+	display: none;
+}
+
+.section-get h1 {
+font-size: 18px;
+  
+}
+
+big {
+	font-size: 15px;
+}
+
+
+.advice-heading {
+	display: none;
+}
+
+.advice-left {
+	position: absolute;
+	left: 1.5rem;
+	transform: scaleX(-50%);
+	background-size: cover;
+	width: 6.5rem;
+	height: 6.5rem;
+	border-radius: 50%;
+}
+
+ .advice-text {
+ 	height: 8rem;
+ }
+
+p {
+	font-size: 12px;
+}
+
+	}
