@@ -10,41 +10,41 @@ $(document).ready(function(){
     {
       breakpoint: 992,
       settings: {
-        slidesToShow: 2,
-        arrows: true,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        slidesToScroll: 2
+      slidesToShow: 2,
+      arrows: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      slidesToScroll: 2
       }
     },
 
-    {
+   {
       breakpoint: 600,
       settings: {
-        slidesToShow: 2,
-        arrows: true,
-        autoplay: false,
-        autoplaySpeed: 2000,
-        easing: 'ease',
-        slidesToScroll: 1
+      slidesToShow: 2,
+      arrows: true,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      easing: 'ease',
+      slidesToScroll: 1
       }
     },
 
     {
       breakpoint: 490,
       settings: {
-        slidesToShow: 1,
-        arrows: true,
-        autoplay: true,
-        easing: 'ease',
-        autoplaySpeed: 2000,
-        slidesToScroll: 1
+      slidesToShow: 1,
+      arrows: true,
+      autoplay: true,
+      easing: 'ease',
+      autoplaySpeed: 2000,
+      slidesToScroll: 1
       }
     }
-    ]
+]
 
   });
-  $('.advice-common').slick({
+   $('.advice-common').slick({
     arrows: false,
     dots: true,
     autoplay: true,
