@@ -20,4 +20,8 @@
 
 6. [DeliveryFood](https://alexkaunsss.github.io/delivery/ "DeliveryFood")
 
-7. [Слайдеры](https://alexkaunsss.github.io/lesson16/ "Слайдеры")
+7. [Гипсолит](https://alexkaunsss.github.io/gipsolit/ "Гипсолит")
+
+8. [Lucid](https://alexkaunsss.github.io/lucid/ "Lucid")
+
+
