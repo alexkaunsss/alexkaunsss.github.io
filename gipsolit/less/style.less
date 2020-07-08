@@ -496,7 +496,11 @@ section{
 	background-size: 70%;
 }
 
-
+.set-popup {
+	span {
+		white-space: nowrap;
+	}
+}
 
 /* Схема работы */
 
@@ -755,7 +759,7 @@ section{
 	&-close {
 		position: absolute;
 		top: -2rem;
-		right: -4rem;
+		right: -3rem;
 		border: none;
 		width: 2rem;
 		background-color: transparent;
@@ -770,7 +774,7 @@ section{
 		left: 50%;
 		transform: translate(-50%);
 		background-color: #fff;
-		padding: 4rem 2rem;
+		padding: 5rem 4rem;
 	}
 
 	&-content {
@@ -780,7 +784,7 @@ section{
 
 
 .popup-thanks {
- display: none;
+	display: none;
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -806,7 +810,7 @@ section{
 		left: 50%;
 		transform: translate(-50%);
 		background-color: #fff;
-		padding: 2rem 3rem;
+		padding: 3rem 2rem;
 		text-align: center;
 		p {
 			font-size: 17px;
@@ -827,10 +831,10 @@ section{
 	padding: 0.5rem;
 	background-color: #ffffff;
 	font-size: 1.3rem;
+	white-space: nowrap;
 }
 
 .textarea-set {
-	width: 300px;
 	height: 80px;
 }
 
@@ -1092,19 +1096,6 @@ section{
 		}
 
 
-
- .popup {
- 	&-content {
- 		padding: 3rem 4rem;
- 	}
- 	&-input {
- 		padding: 1.2rem;
- 	}
- }
-
-
-
-
 	}
 
 
@@ -1135,6 +1126,20 @@ section{
 			min-height: 27rem;
 		}
 	}
+	.set-label {
+		font-size: 1.2rem;
+	}
+
+	.popup {
+		&-content {
+			padding: 3.5rem 2.2rem;
+		}
+	}
+
+	.popup-thanks-content {
+		padding: 2rem 1rem;
+		width: 229px;
+	}
 
 	.materials {
 		&-link {
@@ -1143,8 +1148,10 @@ section{
 			font-size: 1.6rem;
 		}
 	}
-
-
+	.popup-thanks-header {
+		font-size: 16px;
+	}
+	
 	.form-btn {
 		font-size: 1.4rem;
 	}
@@ -1156,6 +1163,7 @@ section{
 		line-height: 15px;
 	}
 }
+
 
 @media (max-width: 500px){
 	.main-title h1{
