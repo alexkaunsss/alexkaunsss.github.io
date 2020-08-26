@@ -27,6 +27,11 @@ a:hover {
 textarea {
   resize: none;
 }
+
+body {
+  overflow-x: hidden;
+}
+
 button:focus,
 input:focus,
 a:focus,
@@ -47,6 +52,7 @@ textarea:focus {
   cursor: pointer;
   background-color: #ca8f02;
 }
+
 /* Typography */
 section {
   padding: 5rem 0;
