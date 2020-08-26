@@ -33,7 +33,7 @@ body {
 
 .input-addres {
 	flex: 0.8;
-	background-image: url(../img/home.svg);
+	background-image: url(../img/home.svg); 
 }
 
 .input-search {
@@ -55,7 +55,6 @@ body {
 	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
 	border-radius: 3px;
 	background: #FFFFFF;
-	color: 
 	font-size: 16px;
 	line-height: 24px;
 }
@@ -483,6 +482,15 @@ body {
 }
 
 @media (max-width:578px ) {
+
+	.button {
+		min-height: 43px;
+	}
+
+	.button-text {
+		display: none;
+	}
+
 	.container {
 		width: 90%;
 	}
@@ -532,9 +540,7 @@ body {
 }
 
 @media (max-width: 480px) {
-	.buttons {
-		margin-top: 15px;
-	}
+
 	.button-primary {
 		margin-right: 9px;
 	}
@@ -543,7 +549,7 @@ body {
 		display: none
 	}
 	.button {
-		min-height: 40px;
+		min-height: 43px;
 	}
 	.button-icon {
 		margin: 0;
@@ -554,6 +560,10 @@ body {
 	.section-heading {
 		flex-wrap: wrap;
 
+	}
+
+	.input-search {
+		margin-left: 0;
 	}
 
 	.footer-block {
@@ -573,4 +583,16 @@ body {
 		margin-right: 0;
 	}
 
+}
+
+@media (max-width: 457px) {
+	.buttons {
+		margin-top: 15px;
+	}
+}
+
+@media (max-width: 342px) {
+	.input-addres {
+		margin-top: 15px;
+	}
 }
