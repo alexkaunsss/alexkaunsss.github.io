@@ -37,6 +37,8 @@ textarea:focus {
 
 iframe {
   width: 100% !important;
+  height: 350px;
+  border: none;
 }
 
 .button {
