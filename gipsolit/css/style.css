@@ -34,6 +34,11 @@ a:focus,
 textarea:focus {
   outline: none;
 }
+
+iframe {
+  width: 100% !important;
+}
+
 .button {
   padding: 1rem 3rem;
   border-radius: 8px;
@@ -495,7 +500,7 @@ section {
 }
 /* Посмотрите как мы работаем  */
 .tour {
-  background: #ffffff url(../img/tour/tour-bg.png) center no-repeat;
+  background: #ffffff url(../img/tour/tour-bg.jpg) center no-repeat;
   background-size: cover;
 }
 .tour-subtitle {
