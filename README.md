@@ -13,14 +13,12 @@
 
 2. [Форма для заполнения данных](alexkaunsss.github.io/lesson13/ "Форма для заполнения данных")
 
-3. [Шапка сайта](https://alexkaunsss.github.io/lesson14/ "Шапка сайта")
+3. [Шрифты](https://alexkaunsss.github.io/lesson14.1/ "Шрифты")
 
-4. [Шрифты](https://alexkaunsss.github.io/lesson14.1/ "Шрифты")
+4. [DeliveryFood](https://alexkaunsss.github.io/delivery/ "DeliveryFood")
 
-5. [DeliveryFood](https://alexkaunsss.github.io/delivery/ "DeliveryFood")
+5. [Гипсолит](https://alexkaunsss.github.io/gipsolit/ "Гипсолит")
 
-6. [Гипсолит](https://alexkaunsss.github.io/gipsolit/ "Гипсолит")
-
-7. [Lucid](https://alexkaunsss.github.io/lucid/ "Lucid")
+6. [Lucid](https://alexkaunsss.github.io/lucid/ "Lucid")
 
 
